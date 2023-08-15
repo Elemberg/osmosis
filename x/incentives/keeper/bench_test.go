@@ -13,10 +13,10 @@ import (
 	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
 	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/osmosis-labs/osmosis/v17/simapp"
 )
 
 func Min(x, y int) int {

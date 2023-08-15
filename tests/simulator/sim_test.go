@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/osmosis-labs/osmosis/v17/simapp/helpers"
 
 	osmosim "github.com/osmosis-labs/osmosis/v17/simulation/executor"
 	"github.com/osmosis-labs/osmosis/v17/simulation/simtypes/simlogger"

@@ -13,11 +13,11 @@ import (
 	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	stakingTypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	simappparams "github.com/osmosis-labs/osmosis/v17/simapp/params"
 )
 
 // Simulation operation weights constants.

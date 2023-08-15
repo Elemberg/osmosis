@@ -6,10 +6,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/osmosis-labs/osmosis/v17/simapp/helpers"
 
 	"github.com/osmosis-labs/osmosis/v17/app/params"
 	tokenfactorytypes "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"

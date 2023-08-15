@@ -2,8 +2,8 @@ package keeper_test
 
 import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/osmosis-labs/osmosis/v17/simapp"
 
 	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
 	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"

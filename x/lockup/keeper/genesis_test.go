@@ -12,8 +12,8 @@ import (
 	"github.com/osmosis-labs/osmosis/v17/x/lockup"
 	"github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/osmosis-labs/osmosis/v17/simapp"
 )
 
 var (
